@@ -23,16 +23,19 @@ public:
 	}
 
 	MyVector(const size_t& count, const T& value)
+		: MyVector()
 	{
 		assign(count, value);
 	}
 
 	MyVector(std::initializer_list<T> list)
+		: MyVector()
 	{
 		insert(begin(), list);
 	}
 
 	MyVector(T* iteratorFirst, T* iteratorLast)
+		: MyVector()
 	{
 		insert(begin(), iteratorFirst, iteratorLast);
 	}

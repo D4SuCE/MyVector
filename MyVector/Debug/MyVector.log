@@ -1,10 +1,10 @@
 ﻿  main.cpp
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(605,21): warning C4018: '<': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(604,1): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const MyVector<int> &)'
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(608,21): warning C4018: '<': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(607,1): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const MyVector<int> &)'
 D:\Work\GitHub\Cpp\MyVector\MyVector\src\main.cpp(11,19): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const MyVector<int> &)' being compiled
 D:\Work\GitHub\Cpp\MyVector\MyVector\src\main.cpp(5,22): message : see reference to class template instantiation 'MyVector<int>' being compiled
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(431,35): warning C4018: '<': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(423,1): message : while compiling class template member function 'T *MyVector<T>::erase(const T *)'
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(434,35): warning C4018: '<': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(426,1): message : while compiling class template member function 'T *MyVector<T>::erase(const T *)'
           with
           [
               T=int
@@ -14,8 +14,8 @@ D:\Work\GitHub\Cpp\MyVector\MyVector\src\main.cpp(8,11): message : see reference
           [
               T=int
           ]
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(374,29): warning C4018: '>=': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(357,1): message : while compiling class template member function 'T *MyVector<T>::insert(const T *,T *,T *)'
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(377,29): warning C4018: '>=': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(360,1): message : while compiling class template member function 'T *MyVector<T>::insert(const T *,T *,T *)'
           with
           [
               T=int
@@ -25,20 +25,20 @@ D:\Work\GitHub\Cpp\MyVector\MyVector\src\main.cpp(9,12): message : see reference
           [
               T=int
           ]
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(379,31): warning C4018: '<': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(407,29): warning C4018: '>=': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(390,1): message : while compiling class template member function 'T *MyVector<T>::insert(const T *,std::initializer_list<T>)'
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(382,31): warning C4018: '<': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(410,29): warning C4018: '>=': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(393,1): message : while compiling class template member function 'T *MyVector<T>::insert(const T *,std::initializer_list<T>)'
           with
           [
               T=int
           ]
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(32,9): message : see reference to function template instantiation 'T *MyVector<T>::insert(const T *,std::initializer_list<T>)' being compiled
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(34,9): message : see reference to function template instantiation 'T *MyVector<T>::insert(const T *,std::initializer_list<T>)' being compiled
           with
           [
               T=int
           ]
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(412,40): warning C4018: '<': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(148,21): warning C4018: '<': signed/unsigned mismatch
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(145,1): message : while compiling class template member function 'void MyVector<int>::reserve(const size_t &)'
-D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(369,11): message : see reference to function template instantiation 'void MyVector<int>::reserve(const size_t &)' being compiled
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(415,40): warning C4018: '<': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(151,21): warning C4018: '<': signed/unsigned mismatch
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(148,1): message : while compiling class template member function 'void MyVector<int>::reserve(const size_t &)'
+D:\Work\GitHub\Cpp\MyVector\MyVector\src\myvector.h(372,11): message : see reference to function template instantiation 'void MyVector<int>::reserve(const size_t &)' being compiled
   MyVector.vcxproj -> D:\Work\GitHub\Cpp\MyVector\Debug\MyVector.exe
